@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Website Travel</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Code for Busan</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/main.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">CODE FOR BUSAN</span>
+                        <h1 class="home__data-title">시빅 해킹으로 <br> 만들어가는 <b>부산</b> 
+                            <!-- <br> 코드포부산</b></h1> -->
+                        </h1>
+                        <a href="#" class="button">소개글</a>
+
+                    </div>
+
+                    <!-- <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div> -->
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">진행 중인 <br/>프로젝트</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/project1.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>  
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">“디지털 기술로 사회 문제를 함께 해결하는 <br> 시민들의 시빅해킹 커뮤니티, 코드포부산 입니다”</h2>
+                        <p class="about__description">2023년 5월. 15명 남짓한 사람들이 시빅해킹을 통한 부산 공익을 위해 지금의 코드포부산을 결성하였습니다.
+                            그리고 이제는 대한민국의 시빅해커 또는 공익데이터 운동을 하는 시민으로서, 기술로 사회에 기여하는 시민과 기관의 네트워크로 성장하고 있습니다.
+                        </p>
+                        <a href="./Introduce.html" class="button">자세히 보기</a>
+                    </div>
+
+                    <div class="about__img">
+                        <!-- <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div> -->
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about.jpg" alt="" class="about__img-new">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+              <h1 class="section__title_h1">정기 모임</h1>
+              <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                  <!--==================== DISCOVER 1 ====================-->
+                  <div class="discover__card swiper-slide">
+                    <img src="assets/img/party1.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                      <h2 class="discover__title">발대식</h2>
+                      <!-- <span class="discover__description">24 tours available</span> -->
+                    </div>
+                  </div>
+                  <!--==================== DISCOVER 2 ====================-->
+                  <div class="discover__card swiper-slide">
+                    <img src="assets/img/party2.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                      <h2 class="discover__title">Chat GPT 소개</h2>
+                      <!-- <span class="discover__description">15 tours available</span> -->
+                    </div>
+                  </div>
+                  <!--==================== DISCOVER 3 ====================-->
+                  <div class="discover__card swiper-slide">
+                    <img src="assets/img/party3.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                      <h2 class="discover__title">코드포코리아 소개</h2>
+                      <!-- <span class="discover__description">18 tours available</span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            
+             <!--==================== PROJECT ====================-->
+             <section class="discover section" id="project">
+                <h1 class="section__title_h1">진행중인 프로젝트</h1>
+                <div class="discover__container container swiper-container ">
+                    <a href="URL_링크" target="_blank"></a>
+                        <div class="card">
+                            <img src="assets/img/chatgpt_project.png" alt="사진1">
+                            <div class="card_content">
+                                <h3>코드포부산 홈페이지 제작</h3>
+                                <p>Chat GPT를 활용한 홈페이지 제작 프로젝트</p>
+                                <span>2023.06.05</span>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="URL_링크" target="_blank"></a>
+                        <div class="card">
+                            <img src="assets/img/party2.jpg" alt="사진2">
+                            <div class="card_content">
+                                <h3>제목</h3>
+                                <p>부재</p>
+                                <span>작성일</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="URL_링크" target="_blank"></a>
+                        <div class="card">
+                            <img src="assets/img/party3.jpg" alt="사진3">
+                            <div class="card_content">
+                                <h3>제목</h3>
+                                <p>부재</p>
+                                <span>작성일</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="전체보기_URL_링크" target="_blank" class="view-all-button">프로젝트 전체보기 ></a>
+    
+                  </div>
+                </div>
+  
+              </section>
+              <!--================SEMINAR=====================-->
+              <section class="discover section" id="project">
+                <h1 class="section__title_h1">
+                    Seminar</h1>
+                <div class="discover__container container swiper-container ">
+                    <a href="URL_링크" target="_blank"></a>
+                        <div class="card">
+                            <img src="assets/img/party1.JPG" alt="사진1">
+                            <div class="card_content">
+                                <h3>23.06.23 첫 회의</h3>
+                                <p>부재</p>
+                                <span>2023.06.23</span>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="URL_링크" target="_blank"></a>
+                        <div class="card">
+                            <img src="assets/img/party2.jpg" alt="사진2">
+                            <div class="card_content">
+                                <h3>제목</h3>
+                                <p>부재</p>
+                                <span>작성일</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="URL_링크" target="_blank"></a>
+                        <div class="card">
+                            <img src="assets/img/party3.jpg" alt="사진3">
+                            <div class="card_content">
+                                <h3>제목</h3>
+                                <p>부재</p>
+                                <span>작성일</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/Seminar.html" target="_blank" class="view-all-button">세미나 자세히 보기 ></a>
+    
+                  </div>
+                </div>
+  
+              </section>
+            <!--==================== SUBSCRIBE ====================-->  
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">문의하기 </h2>
+                        <p class="subscribe__description">코드포부산 관련 문의사항이 있으시다면 언제든 연락바랍니다!
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                제출하기
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Code for Busan</h3>
+                        <p class="footer__description">Travel you choose the<br>
+                            destination, we offer you the<br>
+                            experience.</p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Plan & Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 devjade. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="/TermsOfUse.html" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <!--=============== SCROLL REVEAL ===========-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
